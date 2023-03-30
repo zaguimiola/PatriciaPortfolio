@@ -109,6 +109,15 @@ p {
   font-weight: 500;
 }
 
+.contact {
+  font-size: 28px;
+}
+
+.contact a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 55px;
