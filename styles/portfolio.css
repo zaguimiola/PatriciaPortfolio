@@ -46,6 +46,34 @@ p {
   color: #272142b2;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+  transition: all 100ms ease-in-out;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -63,7 +91,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content {
@@ -111,11 +139,21 @@ p {
 
 .contact {
   font-size: 28px;
+  font-weight: 500;
 }
 
 .contact a {
   color: var(--branding-color);
   text-decoration: none;
+}
+
+.home {
+  background-color: var(--secondary-color);
+  padding: 0 20px;
+}
+
+.logo {
+  max-height: 40px;
 }
 
 @media (max-width: 900px) {
@@ -144,5 +182,9 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .contact {
+    font-size: 20px;
   }
 }
