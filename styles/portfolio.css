@@ -77,7 +77,7 @@ nav li.active a {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -91,7 +91,7 @@ nav li.active a {
 }
 
 .content-container {
-  padding: 100px 20px 0;
+  padding: 60px 20px 0;
 }
 
 .content {
@@ -208,10 +208,6 @@ footer .social-links a:hover {
 
   h3 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .hero p {
